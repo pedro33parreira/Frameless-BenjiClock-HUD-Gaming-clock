@@ -1,1 +1,20 @@
+@echo off
+set SCRIPT=src\clock.py
+set NAME=BenjiClockHUD
+
+py -m pip install --upgrade pip
+py -m pip install pyinstaller
+
+py -m PyInstaller ^
+  --name "%NAME%" ^
+  --onefile ^
+  --windowed ^
+  --noconfirm ^
+  --icon assets\app.ico ^
+  --add-data "assets\app.ico;assets" ^
+  "%SCRIPT%"
+
+echo.
+echo Build finished. Check the dist folder for %NAME%.exe
+pause
 
