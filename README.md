@@ -9,7 +9,8 @@ A **frameless, floating desktop clock** built with Tkinter.
 - **Auto-fit fonts** so time/date never clip  
 - Right-click for **themes** and **font family** switch
 
-![BenjiClock HUD](assets/hero.png)
+<img width="1281" height="719" alt="image" src="https://github.com/user-attachments/assets/4ad6b67e-10f6-4bb0-8f6d-e33155155f30" />
+
 
 ## ✨ Features
 - Minimal **HUD-style** window (`overrideredirect(True)`)
