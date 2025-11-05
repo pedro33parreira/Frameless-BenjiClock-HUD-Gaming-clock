@@ -1,1 +1,3 @@
+# Tkinter ships with Python on Windows/macOS/Linux
+# No external packages needed
 
