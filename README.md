@@ -27,3 +27,16 @@ A **frameless, floating desktop clock** built with Tkinter.
 ```bash
 cd src
 python clock.py
+
+py -m pip install --upgrade pip
+py -m pip install pyinstaller
+
+py -m PyInstaller `
+  --name "BenjiClockHUD" `
+  --onefile `
+  --windowed `
+  --noconfirm `
+  --icon assets\app.ico `
+  --add-data "assets\app.ico;assets" `
+  src\clock.py
+
